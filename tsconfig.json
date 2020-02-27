@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "emitBOM": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2020",
+    "outDir": "dist/",
+    "sourceMap": true,
+    "allowJs": true,
+    "checkJs": true,
+    "paths": {
+      "@bin": [
+        "src/bin"
+      ],
+      "@public": [
+        "src/public"
+      ],
+      "@views": [
+        "src/views"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
